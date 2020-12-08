@@ -1,0 +1,12 @@
+{
+  "name": "cool-spring",
+  "displayName": "CoolSpring",
+  "theme": "ui",
+  "version": "0.0.1",
+  "description": "A blueish theme for Mailspring based on 'DarkSide'.",
+  "license": "Apache License 2.0",
+  "engines": {
+    "mailspring": "*"
+  },
+  "private": true
+}
