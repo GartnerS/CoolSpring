@@ -4,8 +4,10 @@
 .thread-list .focused .mail-label,
 .draft-list .focused .mail-label,
 .thread-list.handler-split .list-item.selected .mail-label {
-  background: @accent !important;
-  color: white !important;
+  // background: @accent !important;
+  background: lighten(@accent, 10%) !important;
+  color: @label-color !important;
   box-shadow: none !important;
   filter: none !important;
+  border-radius: 2.5px;
 }
